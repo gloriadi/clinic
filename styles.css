@@ -12,3 +12,7 @@ img { max-width: 100%; height: auto; }
 input, select, button { max-width: 100%; }
 nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; }
 header, main, footer { padding: 0 1rem; }
+
+/* Prices in bold green so they are easy to find */
+#prices li { font-weight: bold; color: #d484c8; }
+#total { font-weight: bold; font-size: 1.3rem; color: #e9a1e4; }
